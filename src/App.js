@@ -19,18 +19,11 @@ export class App extends Component {
   }
 
   handleCountryChange = async (country) => {
-    if (country === "global") {
-      const fetchedData = await fetchData();
-      this.setState({
-        data: fetchedData,
-      });
-    } else {
-      const fetchedData = await fetchData(country);
-      this.setState({
-        data: fetchedData,
-        country: country,
-      });
-    }
+    const fetchedData = await fetchData(country);
+    this.setState({
+      data: fetchedData,
+      country: country,
+    });
   };
   render() {
     const { data, country } = this.state;

@@ -4,8 +4,7 @@ This is a React frontend application to track COVID-19. Users can select a parti
 
 This application is only a Dashboard to a API which I found on GitHub. Material-UI is used as the css framework of the application.
 
-> API Source : https://github.com/mathdroid/covid-19-api
-> <br>
+> API Source : https://github.com/mathdroid/covid-19-api > <br>
 
 **How to Run the application.**
 
