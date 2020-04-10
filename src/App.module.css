@@ -3,6 +3,32 @@ body {
 }
 
 .container {
+  display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1e97ff;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .logo {
+    width: 100%;
+  }
 }
